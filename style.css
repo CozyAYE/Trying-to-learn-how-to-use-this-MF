@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+li {
+    width: 200px;
+    height: 100px;
+    background-color: #8cacea;
+    margin: 8px;
+    
+}
+
+.main {
+
+    display: flex;
+    height: 100px;
+    width: 200px;
+    background-color: #8cacea;
+    margin: 8px;
+    color: honeydew;
+    text-align: center;
+    
+
+
+}
