@@ -1,7 +1,13 @@
+body {
+
+    
+    background-color: #611006;
+
+}
+
 ul {
     display: flex;
     list-style: none;
-    flex-direction: column;
 }
 
 li {
@@ -14,14 +20,94 @@ li {
 
 .main {
 
+    cursor: cell;
     display: flex;
-    height: 100px;
-    width: 200px;
-    background-color: #8cacea;
+    height: 70px;
+    width: 190px;
+    background-color:#9da;
     margin: 8px;
-    color: honeydew;
+    color: rgb(0, 0, 0);
     text-align: center;
-    
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px ;
+    position: absolute;
+    top: 20px;
+    left: 53px;
 
 
+}
+
+.main2 {
+
+
+    cursor: crosshair;
+    display: flex;
+    height: 70px;
+    width: 190px;
+    background-color:#9da;
+    margin: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px ;
+    position: absolute;
+    top: 20px;
+    left: 269px;
+    justify-content: center;
+
+}
+
+.container {
+
+    justify-content: center;
+    background-color: #877b7a;
+    width: fit-content;
+    padding-right: 50px;
+}
+
+.main3 {
+
+
+    cursor: help;
+    display: flex;
+    height: 70px;
+    width: 190px;
+    background-color:#9da;
+    margin: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px ;
+    position: absolute;
+    top: 20px;
+    left: 485px;
+    justify-content: center;
+
+}
+
+.circle1 {
+
+width: 5%;
+height: 5%;
+background-color: #8cacea;
+border-radius: 50%;
+display: flex;
+position: absolute;
+margin-top: -100px;
+margin-left: 1px;
+}
+
+.circle2 {
+
+width: 5%;
+height: 5%;
+background-color: #8cacea;
+border-radius: 50%;
+display: flex;
+position: absolute;
+margin-top: -100px;
+margin-left: 685px;
 }
